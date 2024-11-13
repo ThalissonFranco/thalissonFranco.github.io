@@ -6,37 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thalisson Henrique</title>
   <style>
-    .numero1 {
-      background-color: brown;
-    }
-
-    .numero2 {
-      background-color: rgb(0, 204, 255);
-    }
-
-    .numero3 {
-      background-color: blanchedalmond;
-    }
-
     .container {
       display: flex;
       justify-content: flex-start;
       gap: 115px;
+      color: rgb(80, 40, 14);
+      margin-bottom: 20px;
     }
 
-    .italic {
-      font-style: italic;
+    body {
+      background-color: rgb(51, 80, 54);
+      color: #f1ebeb;
+    }
+
+    h2 {
+      color: rgb(80, 40, 14)
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .ini {
+      color: rgb(80, 40, 14);
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      /* Cor personalizada */
+    }
+
+    a:hover {
+      color: #ffffff;
+      /* Cor personalizada no hover */
+      text-decoration: underline;
+      /* Coloca o sublinhado no hover */
     }
   </style>
 </head>
 
 <body>
-  <h1>Thalisson Henrique Franco Cardoso</h1>
+  <h1 class="ini">Thalisson Henrique Franco Cardoso</h1>
 
   <div class="container">
-    <Li class="numero1"><a href="#Sobre"><strong>Sobre mim</strong></a></Li>
-    <li class="numero2"><a href="#Habi"><strong>Habilidades</strong></a></li>
-    <Li class="numero3"><a href="#Blog"><Strong>Blog</Strong></a></li>
+    <a class="ini" href="#Sobre"><strong>Sobre mim</strong></a>
+    <a class="ini" href="#Habi"><strong>Habilidades</strong></a>
+    <a class="ini" href="#Blog"><Strong>Blog</Strong></a>
   </div>
 
   <div style="display: flex;align-items: end;gap: 20px;">
@@ -46,11 +62,11 @@
     <p>Uma selfie de quando eu trabalhava no centro Olimpico e paralimpico de samambaia sul</p>
   </div>
 
-  <H2 id="Sobre">Sobre mim</H2>
+  <h2 id="Sobre">Sobre mim</h2>
   <p>Atualmente moro em brasilia/Brasil, pra ser mais exato e uma cidade satelite chamada Recanto das Emas,
     sou de nacionalidade Brasileira, tenho 27 anos e sou formado em Educação Física, com isso, gostaria de citar um
     texto que descreve um pouco sobre mim.
-  <p><strong> Você Mesmo</strong></p>
+  <p class="ini"><strong> Você Mesmo</strong></p>
   Lembre-se de que você mesmo é o melhor secretário de sua tarefa, o mais eficiente propagandista de seus ideais, a
   mais clara demonstração de seus princípios, o mais alto padrão do ensino superior que seu espírito abraça e a
   mensagem viva das elevadas noções que você transmite aos outros. Não se esqueça, igualmente, de que o maior inimigo
@@ -60,16 +76,20 @@
   </p>
 
   <h2 id="Habi">Habilidades</h2>
-  <li class="italic">Pontualidade</li>
-  <li class="italic">Cooperação</li>
-  <li class="italic">Comunicativo</li>
-  <li class="italic">Esforçado</li>
+  <ol><em>
+      <li>Pontualidade</li>
+      <li>Cooperação</li>
+      <li>Comunicativo</li>
+      <li>Esforçado</li>
+    </em>
+  </ol>
 
-  <h2 id="Blog"><a href="https://4penas-um-olhar.tumblr.com/" target="_blank" rel="noopener noreferrer">Blog</a></h2>
+  <h2 id="Blog"><a class="ini" href="https://4penas-um-olhar.tumblr.com/" target="_blank"
+      rel="noopener noreferrer">Blog</a></h2>
   <p>Um blog que reflete mais sobre uma parte da minha vida.</p>
 
-  <a href="#inicio">
-    <p>inicio.</p>
+  <a class="ini" href="#inicio">
+    <strong><em>Inicio</em></strong>
   </a>
 
 </body>
