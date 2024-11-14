@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 115px;
+  color: rgb(80, 40, 14);
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: rgb(51, 80, 54);
+  color: #f1ebeb;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+h2 {
+  color: rgb(80, 40, 14)
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.ini {
+  color: rgb(80, 40, 14);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  /* Cor personalizada */
+}
+
+a:hover {
+  color: #ffffff;
+  /* Cor personalizada no hover */
+  text-decoration: underline;
+  /* Coloca o sublinhado no hover */
+}
+
+p {
+  background-color: #37633f;
+  font-weight: bold;
+}
+
+ol {
+  background-color: #37633f;
+  line-height: 20px;
+  font-weight: bold;
+}
